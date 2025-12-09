@@ -87,7 +87,7 @@ export class PatientStorage {
       return JSON.parse(data);
     } catch (error) {
       // If file doesn't exist, return empty array
-      if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
+      if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
         return [];
       }
       throw error;
@@ -193,7 +193,8 @@ export class PatientStorage {
 
     await this.saveAllPatients(filteredPatients);
     
-    // Optionally delete patient's upload directory
+    // Note: Patient upload directory is preserved for data retention
+    // To enable cleanup, uncomment the following lines:
     // const patientDir = path.join(UPLOADS_DIR, id);
     // await fs.rm(patientDir, { recursive: true, force: true });
     

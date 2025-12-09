@@ -5,14 +5,24 @@ import { patientStorage } from "./patientStorage";
 import multer from "multer";
 import path from "path";
 import { promises as fs } from "fs";
+import rateLimit from "express-rate-limit";
+
+// Rate limiter for file access endpoints
+const fileAccessLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per windowMs
+  message: 'Too many requests from this IP, please try again later.'
+});
 
 // Configure multer for file uploads
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB limit
+
 const upload = multer({
   storage: multer.diskStorage({
     destination: async (req, file, cb) => {
       const patientId = req.params.patientId || req.body.patientId;
       if (!patientId) {
-        return cb(new Error('Patient ID is required'), '');
+        return cb(new Error('Patient ID is required in the request parameters or body'), '');
       }
       const uploadDir = patientStorage.getPatientUploadDir(patientId);
       await fs.mkdir(uploadDir, { recursive: true });
@@ -24,7 +34,7 @@ const upload = multer({
     }
   }),
   limits: {
-    fileSize: 10 * 1024 * 1024 // 10MB limit
+    fileSize: MAX_FILE_SIZE
   }
 });
 
@@ -152,12 +162,13 @@ export async function registerRoutes(
   });
 
   // Serve uploaded files
-  app.use('/uploads', async (req, res, next) => {
+  app.use('/uploads', fileAccessLimiter, async (req, res, next) => {
     const uploadsPath = path.join(process.cwd(), 'data', 'uploads');
-    const requestedPath = path.join(uploadsPath, req.path);
+    const requestedPath = path.resolve(uploadsPath, req.path.substring(1));
     
     // Security check: ensure requested path is within uploads directory
-    if (!requestedPath.startsWith(uploadsPath)) {
+    const relativePath = path.relative(uploadsPath, requestedPath);
+    if (relativePath.startsWith('..') || path.isAbsolute(relativePath)) {
       return res.status(403).json({ error: 'Access denied' });
     }
     
