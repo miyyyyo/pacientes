@@ -1,0 +1,258 @@
+[
+  {
+    "slug": "carlos-mendez",
+    "name": "Carlos Mendez",
+    "age": 0,
+    "dni": "40.555.666",
+    "phone": "+54 9 11 5555 6666",
+    "email": "carlos.mendez@email.com",
+    "avatar": "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y",
+    "tags": [
+      "Consulta",
+      "Botox"
+    ],
+    "notes": "",
+    "visits": [
+      {
+        "date": "2025-12-09T00:38:00",
+        "treatment": "Consulta inicial - Evaluación facial",
+        "notes": "Primera visita del paciente. Se realizó evaluación completa. Plan de tratamiento propuesto para próxima sesión.",
+        "status": "Programada",
+        "photos": [],
+        "id": "aaa0c70c-0aba-4325-adcd-f2ec9ba18451"
+      }
+    ],
+    "photos": [],
+    "cases": [],
+    "records": [],
+    "obraSocial": "OSDE 310",
+    "birthDate": "",
+    "id": "a4521ce7-6591-4000-9c4f-513b70a214c1",
+    "lastVisitDate": "2025-12-09T00:38:00"
+  },
+  {
+    "slug": "lucia-fernandez",
+    "name": "Lucía Fernández",
+    "age": 45,
+    "dni": "25.456.789",
+    "phone": "+54 9 11 4567 8901",
+    "email": "lucia.fer@email.com",
+    "avatar": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&auto=format&fit=crop&q=60",
+    "tags": [
+      "Anti-age",
+      "Láser"
+    ],
+    "notes": "Seguimiento anual.",
+    "lastVisitDate": "2025-11-19T00:36:52.178Z",
+    "obraSocial": "Galeno",
+    "visits": [
+      {
+        "date": "2025-11-19T00:36:52.178Z",
+        "treatment": "Radiofrecuencia",
+        "notes": "Sesión 1 de 6.",
+        "status": "Realizada",
+        "photos": []
+      },
+      {
+        "date": "2025-12-14T00:36:52.178Z",
+        "treatment": "Radiofrecuencia",
+        "notes": "Sesión 2 de 6.",
+        "status": "Programada",
+        "photos": []
+      }
+    ],
+    "photos": [
+      {
+        "id": "g4",
+        "url": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&auto=format&fit=crop&q=60",
+        "date": "2025-06-09T00:36:52.178Z",
+        "type": "general"
+      }
+    ],
+    "cases": [
+      {
+        "id": "c2",
+        "title": "Rejuvenecimiento Facial",
+        "description": "Tratamiento combinado 6 meses.",
+        "dateBefore": "2025-06-09T00:36:52.178Z",
+        "dateAfter": "2025-11-19T00:36:52.178Z",
+        "photoBefore": {
+          "id": "pb2",
+          "url": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=500&auto=format&fit=crop&q=60",
+          "date": "2025-06-09T00:36:52.178Z",
+          "type": "before",
+          "notes": "Textura inicial"
+        },
+        "photoAfter": {
+          "id": "pa2",
+          "url": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&auto=format&fit=crop&q=60",
+          "date": "2025-11-19T00:36:52.178Z",
+          "type": "after",
+          "notes": "Post tratamiento"
+        }
+      }
+    ],
+    "records": [],
+    "id": "ccf49107-f543-48e0-9b4b-41903cba819c"
+  },
+  {
+    "slug": "maria-rodriguez",
+    "name": "María Rodríguez",
+    "age": 28,
+    "dni": "38.987.654",
+    "phone": "+54 9 11 9876 5432",
+    "email": "maria.rod@email.com",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60",
+    "tags": [
+      "Rellenos",
+      "Labios"
+    ],
+    "notes": "Alérgica a la penicilina.",
+    "lastVisitDate": "2025-11-09T00:36:52.178Z",
+    "obraSocial": "Swiss Medical",
+    "visits": [
+      {
+        "date": "2025-11-09T00:36:52.178Z",
+        "treatment": "Relleno de Labios",
+        "notes": "1ml Ácido Hialurónico. Resultado natural.",
+        "status": "Realizada",
+        "photos": [
+          {
+            "id": "p2",
+            "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60",
+            "date": "2025-11-09T00:36:52.178Z",
+            "type": "visit"
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "id": "g3",
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60",
+        "date": "2025-10-09T00:36:52.178Z",
+        "type": "general"
+      }
+    ],
+    "cases": [],
+    "records": [
+      {
+        "id": "r3",
+        "title": "Historial Clínico",
+        "date": "2025-10-09T00:36:52.178Z",
+        "type": "document"
+      }
+    ],
+    "id": "d4e68111-cc76-41af-8c64-6584cdbe927c"
+  },
+  {
+    "slug": "ana-garcia",
+    "name": "Ana García",
+    "age": 34,
+    "birthDate": "1990-05-15",
+    "dni": "34.123.456",
+    "phone": "+54 9 11 1234 5678",
+    "email": "ana.garcia@email.com",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60",
+    "tags": [
+      "VIP",
+      "Botox",
+      "Facial"
+    ],
+    "notes": "Paciente prefiere citas por la mañana. Sensibilidad en zona T.",
+    "lastVisitDate": "2025-12-04T00:36:52.177Z",
+    "obraSocial": "OSDE 410",
+    "visits": [
+      {
+        "date": "2025-12-04T00:36:52.178Z",
+        "treatment": "Botox Full Face",
+        "notes": "Aplicación estándar, 50 unidades. Sin complicaciones.",
+        "status": "Realizada",
+        "photos": [
+          {
+            "id": "p1",
+            "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60",
+            "date": "2025-12-04T00:36:52.178Z",
+            "type": "visit",
+            "notes": "Inmediato post-op"
+          }
+        ]
+      },
+      {
+        "date": "2025-08-09T00:36:52.178Z",
+        "treatment": "Consulta Inicial",
+        "notes": "Evaluación facial completa. Plan de tratamiento propuesto.",
+        "status": "Realizada",
+        "photos": []
+      }
+    ],
+    "photos": [
+      {
+        "id": "g1",
+        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60",
+        "date": "2025-11-09T00:36:52.178Z",
+        "type": "general",
+        "notes": "Frente"
+      },
+      {
+        "id": "g2",
+        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&flip=h",
+        "date": "2025-11-09T00:36:52.178Z",
+        "type": "general",
+        "notes": "Perfil Derecho"
+      },
+      {
+        "id": "g3",
+        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60",
+        "date": "2025-10-09T00:36:52.178Z",
+        "type": "general",
+        "notes": "Control mensual"
+      },
+      {
+        "id": "g4",
+        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&flip=h",
+        "date": "2025-10-09T00:36:52.178Z",
+        "type": "general",
+        "notes": "Perfil Izquierdo"
+      }
+    ],
+    "cases": [
+      {
+        "id": "c1",
+        "title": "Rinomodelación",
+        "description": "Corrección de dorso nasal.",
+        "dateBefore": "2025-09-09T00:36:52.178Z",
+        "dateAfter": "2025-12-04T00:36:52.178Z",
+        "photoBefore": {
+          "id": "pb1",
+          "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60",
+          "date": "2025-09-09T00:36:52.178Z",
+          "type": "before",
+          "notes": "Vista frontal"
+        },
+        "photoAfter": {
+          "id": "pa1",
+          "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60",
+          "date": "2025-12-04T00:36:52.178Z",
+          "type": "after",
+          "notes": "Resultado 3 meses"
+        }
+      }
+    ],
+    "records": [
+      {
+        "id": "r1",
+        "title": "Consentimiento Informado - Botox",
+        "date": "2025-08-09T00:36:52.178Z",
+        "type": "document"
+      },
+      {
+        "id": "r2",
+        "title": "Ficha Médica Inicial",
+        "date": "2025-08-09T00:36:52.178Z",
+        "type": "document"
+      }
+    ],
+    "id": "30f9619b-dfa4-43b3-85f8-cb7574f87efe"
+  }
+]

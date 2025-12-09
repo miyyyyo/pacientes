@@ -1,0 +1,81 @@
+Please make the following improvements to the Design prototype:
+
+Doctor specialty text
+
+Wherever the doctor’s specialty appears (for example in the bottom-left profile area), change the text from “Dermatólogo” to “Cirujano Plástico”.
+
+Reduce empty space above main patient image
+
+On the patient detail page, in the top section with the main profile image:
+
+There is too much white space above the main image.
+
+Reduce that vertical spacing so the header area is more compact and balanced.
+
+“Etiquetar” input for photo labels
+
+For photos where there is an “Etiquetar” option:
+
+Allow the user to type a custom label (free text).
+
+Save and display this label on the photo (as a badge at the top of the image).
+
+Image viewer – remove duplicate close buttons
+
+When viewing images in the large/lightbox view:
+
+There are currently two close (“X”) buttons in the top-right corner.
+
+Remove one so there is only a single close button in a clear, consistent position.
+
+Descriptions and labels everywhere photos appear
+
+In the visit history and everywhere else that photos appear (gallery, before/after, documents, etc.):
+
+Allow adding and editing a description for each photo.
+
+The description must be shown at the bottom of the image in both thumbnail and large view.
+
+Allow adding and editing labels for each photo (using the same “Etiquetar” behavior).
+
+The label should be shown at the top of the image as a badge.
+
+Visit history – edit screen and add photos
+
+In Historial de Visitas:
+
+Provide a proper edit screen or modal for a visit, where I can change:
+
+Date and time
+
+Notes/description
+
+Other visit details you already have
+
+In that visit edit UI, include the photo upload component so I can add more photos to that visit.
+
+Newly added photos should appear in the visit’s photo list and use the same description + label behavior as other photos.
+
+Notas Médicas – CRUD + timestamp
+
+In the Notas Médicas section on the patient detail page:
+
+Add buttons to:
+
+Agregar (create a new note)
+
+Editar an existing note
+
+Eliminar a note
+
+Each note should store and display:
+
+Date and time when it was created or last updated (in Spanish format).
+
+Make sure the UI feels consistent with the rest of the app and remains in Spanish.
+
+Please keep all visible text in Spanish, maintain responsiveness, and at the end:
+
+List which components/files you changed.
+
+Explain where the visit edit screen lives and how photo descriptions/labels are handled across all sections.
