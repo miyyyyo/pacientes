@@ -1,0 +1,95 @@
+’m continuing to refine this Design-mode prototype for the patient manager. Please apply the following changes to the UI and behavior:
+
+“Antes y Después” section
+
+In the “Antes y Después” tab of the patient detail:
+
+Add a clear call-to-action button, for example “Agregar antes y después”.
+
+When clicked, invite the user to upload a pair of photos:
+
+One “Antes” photo
+
+One “Después” photo
+
+A text description for this pair (e.g. treatment, fecha, notas).
+
+The user should be able to add multiple pairs of before/after photos for the same patient.
+
+Display each pair nicely in the list (Antes on the left, Después on the right, with its description).
+
+Pagination in patient list
+
+On the patient list page, add pagination:
+
+Show a reasonable number of patients per page (e.g. 8–12).
+
+Add controls to go to previous / next page, and show which page is selected.
+
+Keep the existing filters/search working together with pagination.
+
+Documents section – upload call to action
+
+In the “Documentos” tab of the patient detail:
+
+Add a button or section that clearly invites the user to upload documents or photos, e.g. “Subir documento”.
+
+For now, it can use mock behavior, but the button and UI should be fully wired so it feels real in Design mode.
+
+Move search to the left sidebar
+
+Move the search input (for patients) from the top bar into the left sidebar.
+
+The sidebar should contain:
+
+The search field
+
+Navigation items (Pacientes, Agenda, Documentos, Configuración, etc.).
+
+Make sure the search still filters the patient list as before.
+
+Stronger tag/label colors in patient detail
+
+On the patient detail page, the labels/tags (e.g. VIP, Botox, Facial, etc.) are too light and almost invisible.
+
+Increase their contrast:
+
+Stronger background color
+
+Clearer text color
+
+Keep them consistent with the overall visual style, but ensure they are easy to read at a glance.
+
+Photo gallery – upload / drag & drop
+
+In the “Galería de Fotos” section:
+
+Add a visible control to upload or drag-and-drop photos.
+
+It should be testable in Design mode:
+
+When I select or drag photos, they should appear in the gallery (using mock storage/state).
+
+After uploading, show a success message in Spanish, e.g. “Fotos subidas correctamente”.
+
+Keep the current gallery layout and integrate the upload control in a natural way.
+
+Header – remove or replace “Sistema Operativo”
+
+In the header there is text that says “Sistema Operativo”; this is not useful in this context.
+
+Either:
+
+Remove that text entirely, or
+
+Replace it with something more relevant (for example, the current doctor name “Dr. Héctor Julián” or a simple status like “Panel principal”).
+
+Choose the option that best fits the existing design.
+
+Please keep all visible text in Spanish, maintain responsiveness, and at the end:
+
+List which files/components you updated.
+
+Tell me where the new “Agregar antes y después” logic lives.
+
+Confirm that the photo gallery upload and success message can be tested directly in this Design prototype.

@@ -1,0 +1,113 @@
+I just upgraded my Replit plan and I want to use Design mode as a fast prototype space for my Patient Management application.
+
+Please do the following:
+
+Scope
+
+Work in Design / front-end only mode.
+
+No real backend, no real file uploads, no database.
+
+Use in-memory mock data (or simple JSON files) to simulate patients, visits, and photos.
+
+The goal is to quickly iterate on the UI/UX so later I can port the components into my existing full project.
+
+App concept (Patient Manager for an aesthetic clinic)
+Design a clean, modern, responsive UI (desktop and mobile) for a patient management system for an aesthetic / cosmetic clinic in Argentina.
+Main entities:
+
+Patient: basic info (name, age, ID/DNI, contact info, notes, tags).
+
+Photos: multiple photos per patient (general gallery + medical/visit photos).
+
+Visits: date/time, notes, optional photos.
+
+Before/After cases.
+
+Medical records / clinical documents.
+
+Screens I want in Design mode
+
+Dashboard / patient list
+
+Table or card layout listing patients.
+
+Search bar and basic filters (e.g. by name, tag, “with recent visit”).
+
+Action to open a patient detail.
+
+Patient detail view
+
+Top area with patient profile: name, age, ID, contact info, tags (“VIP”, “Post-op”, etc.).
+
+Photo gallery section (thumbnails) with an image viewer/lightbox on click.
+
+Visit history section: list of visits with date/time, short summary and a way to open full details.
+
+Before/After section: list of cases, each with two images (before / after) and a short description.
+
+Medical records section: list of documents / notes.
+
+Navigation:
+
+A simple header with app name (in Spanish, e.g. “Gestor de Pacientes”) and a side or top navigation to go back to the dashboard.
+
+UI requirements
+
+All visible text must be in Spanish.
+
+Use a clean, modern look (similar to a medical SaaS dashboard).
+
+Make sure it works well on desktop and is at least usable on mobile.
+
+For photos:
+
+Use placeholder images (stock-style) and placeholder JSON data for now.
+
+Include an image viewer/lightbox so that clicking on a thumbnail shows the photo larger, with next/previous navigation.
+
+Code structure
+
+Use React components that are easy to later copy into another Repl / project (for example, into a Next.js app).
+
+Split the UI into reusable components:
+
+PatientList / PatientCard
+
+PatientDetailLayout
+
+PhotoGallery + ImageViewer
+
+VisitHistory
+
+BeforeAfterSection
+
+MedicalRecordsList
+
+Use TypeScript if possible and define basic types/interfaces for Patient, Visit, Photo, etc., so it’s easier to reuse later.
+
+Mock data
+
+Create a small mock dataset (3–5 patients) with:
+
+Basic info,
+
+A few photos per patient,
+
+2–3 visits,
+
+1–2 before/after cases.
+
+Keep this data on the front end only (no persistent storage) to support all the UI interactions in Design mode.
+
+What I want from you
+
+Set up this Design project and implement the screens and components described above.
+
+Then give me:
+
+A short explanation of the component structure.
+
+The main file paths for the key components (PhotoGallery, PatientDetail, etc.).
+
+Please keep the code as clean and reusable as possible, because I will later copy these components into my existing full backend project.

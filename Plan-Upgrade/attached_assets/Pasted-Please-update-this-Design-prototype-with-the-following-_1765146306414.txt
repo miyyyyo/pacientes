@@ -1,0 +1,87 @@
+Please update this Design prototype with the following changes:
+
+New visit must appear in the list with actions
+
+When I add a new visit, it must:
+
+Be immediately added to the visit list in “Historial de visitas”.
+
+Show the same action buttons as the existing visits:
+
+Editar
+
+Eliminar
+
+Any other relevant actions.
+
+Right now, after creating a visit, I do not see it in the list. Fix this so the list is updated and the new visit remains visible.
+
+Remove green circle over the image
+
+There is a green circle indicator on top of an image (likely on the main patient photo or avatar).
+
+Remove this green circle overlay entirely, so the image is clean without that indicator.
+
+Before/After sample photos
+
+In the “Antes y Después” section:
+
+If you are using placeholder images, please use sample photos of people that clearly suggest:
+
+A person before surgery/treatment.
+
+The same person after surgery/treatment.
+
+These can still be sample/mock images, but should look like realistic before/after examples of aesthetic or plastic surgery.
+
+Show “Obra social” in patient detail
+
+In the patient detail view, display the patient’s “Obra social” (health insurance) along with the other basic info.
+
+Make sure:
+
+The field label is “Obra social”.
+
+The value comes from the patient’s data model (not hard-coded).
+
+Visit image viewer – enlarge instead of closing
+
+When I click on a visit photo to enlarge it:
+
+It should open or stay in the enlarged/lightbox view.
+
+Right now, clicking the image closes the dialog instead of enlarging it properly.
+
+Fix this so:
+
+Clicking the thumbnail opens or keeps the large view.
+
+The close action is only triggered by the proper close button or backdrop, not by clicking directly on the image (unless you explicitly design it that way).
+
+Photo gallery – more sample photos of the same person
+
+In the Galería de fotos:
+
+Add more sample photos so the gallery looks richer.
+
+The sample photos should:
+
+Be clearly of people (not abstract or random objects).
+
+Preferably look like they are of the same person in different angles or stages (to simulate a real patient gallery).
+
+Please keep all visible text in Spanish, maintain responsiveness, and at the end:
+
+List which components/files you changed.
+
+Confirm that:
+
+New visits now appear properly in the list with edit/delete buttons.
+
+Visit photos open correctly in enlarged view.
+
+“Obra social” is displayed in patient detail.
+
+The green circle overlay is removed.
+
+Before/After and gallery samples use realistic person images.

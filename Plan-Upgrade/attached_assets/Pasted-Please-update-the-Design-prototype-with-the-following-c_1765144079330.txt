@@ -1,0 +1,70 @@
+Please update the Design prototype with the following changes:
+
+Notes – delete with undo
+
+When a medical note is deleted:
+
+Show a toast/snackbar message in Spanish indicating the note was deleted.
+
+Include a “Deshacer” (undo) action in that message.
+
+If the user clicks “Deshacer”, restore the deleted note.
+
+“Documentos” section → “Fichas”, with two upload buttons
+
+Rename the “Documentos” tab/section to “Fichas” everywhere in the UI.
+
+Inside that section, add two separate buttons:
+
+One button specifically for subir documentos (PDF, Word, etc. – mocked is fine in Design mode).
+
+Another button specifically for subir fotos.
+
+Display uploaded items clearly grouped or labeled as documents vs photos.
+
+Patient list cards – larger square photo
+
+On the patient list page, for each patient card (“ficha”):
+
+Make the photo larger and square (not tiny and hard to see).
+
+Keep the rest of the card layout balanced around the bigger image.
+
+Patient detail – spacing around main photo
+
+On the patient detail page:
+
+Adjust the layout so that the vertical space above the main profile photo
+is approximately equal to the horizontal left margin.
+
+The photo should look visually centered with consistent padding above and to the left.
+
+Change label “Gestor clínico”
+
+Wherever the label “Gestor clínico” appears (for example under the clinic name/logo), replace it with:
+
+“Cirugía Plástica de excelencia”
+
+New visit – persist in list and allow photos
+
+When a new visit is added:
+
+Make sure it appears and remains in the visit list in Historial de Visitas (not just temporarily).
+
+When viewing a specific visit:
+
+Provide a way to add photos to that visit (using the same photo component pattern as in other sections).
+
+Newly added photos should be shown as part of that visit’s details.
+
+Please keep all visible text in Spanish, maintain responsiveness, and at the end:
+
+List which components/files you changed.
+
+Confirm that:
+
+Notes support delete + undo.
+
+The “Fichas” section has two separate upload buttons (documents and photos).
+
+New visits stay in the list and accept photos in their detail view.

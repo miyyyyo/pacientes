@@ -1,0 +1,89 @@
+Please update this Design prototype with the following changes:
+
+Logo / title navigation
+
+When the user clicks on “Clínica Dr. Julián” or its logo in the header, navigate to the patient list page (main patients listing).
+
+Search and tags in the left sidebar
+
+Move the search bar and the tag filters into the left sidebar.
+
+Remove the current left menu entries (Pacientes, Agenda, Documentos, Configuración, etc.) so the sidebar is dedicated to:
+
+The logo/title
+
+The search input
+
+The tag filters.
+
+The search must be live: it should filter the patient list as the user types, by name/DNI and tags.
+
+Patient detail – larger profile photo
+
+On the patient detail page, make the main profile photo twice the current size (keeping a nice rectangular or square shape, consistent with the design).
+
+Photo gallery – upload control placement
+
+In the Galería de Fotos section, move the “upload photos” control so it appears below the photo grid, not above.
+
+It should still allow selecting or dragging photos to upload (mocked in Design mode).
+
+Visit history – selectable visit with details
+
+In Historial de Visitas:
+
+Allow the user to select a visit (e.g. by clicking on it) to view:
+
+Larger photos associated with that visit.
+
+More detailed visit information (date, time, notes).
+
+Provide buttons to:
+
+Edit the visit (open an edit screen or modal).
+
+Delete the visit.
+
+Photo delete + undo
+
+All photos (in galleries, visits, documents) must have a delete option.
+
+When a photo is deleted:
+
+Show a message in Spanish that the photo was deleted.
+
+Include an “Deshacer” (undo) action so the user can restore the photo if they deleted it by mistake.
+
+Documents – allow photo upload
+
+In the Documentos section of the patient detail:
+
+Allow uploading photos/documents (mock behavior is fine in Design mode).
+
+Display uploaded items in a simple list or grid.
+
+Photo descriptions and labels
+
+In all places where photos appear (gallery, visits, documents):
+
+Allow adding and editing a description for each photo.
+
+The description must be displayed at the bottom of the image in both thumbnail and large view.
+
+Allow adding labels/tags for each photo (e.g. “Nueva”, “Excelente”, etc.).
+
+These labels should be displayed at the top of the photo, as small badges.
+
+Image viewer – single close icon
+
+In the enlarged / lightbox image viewer, there are currently two “X” close icons.
+
+Remove one so there is only a single close icon, placed in a clear, consistent position.
+
+Please keep all visible text in Spanish, maintain responsiveness, and at the end:
+
+List which components/files you changed.
+
+Explain how the visit selection + detail view works.
+
+Confirm that delete + undo and photo descriptions/labels work consistently across gallery, visits and documents.

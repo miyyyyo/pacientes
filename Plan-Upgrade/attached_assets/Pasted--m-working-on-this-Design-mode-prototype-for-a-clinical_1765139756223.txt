@@ -1,0 +1,115 @@
+’m working on this Design-mode prototype for a clinical patient manager UI. The layout looks good, but several things are missing or not working yet. Please apply the following changes:
+
+“Nueva Visita” button
+
+The “Nueva Visita” button on the patient detail page currently does nothing.
+
+Make it open a proper “Nueva Visita” screen or modal with:
+
+Date and time fields
+
+Notes/description
+
+Optional photo area (even if it’s just mocked for now)
+
+After saving, show the new visit in the “Historial de Visitas” tab.
+
+Photo navigation with keyboard arrows
+
+When viewing photos in the large/lightbox view, add keyboard navigation:
+
+Left arrow → previous photo
+
+Right arrow → next photo
+
+Escape → close viewer
+
+Edit button
+
+The “Editar” button on the patient detail header currently does nothing.
+
+Make it open an edit form for the patient:
+
+Name, age, DNI, phone, email, tags, notes, etc.
+
+For now, you can update the mock data in memory.
+
+Profile photo size and shape
+
+Change the main profile photo on the patient detail header:
+
+Make it larger.
+
+Use a square or vertical rectangular shape instead of a small circle.
+
+Keep the style consistent with the rest of the design.
+
+Color palette
+
+Adjust the general color palette towards a lighter blue / celeste tone.
+
+Keep it clean and medical-looking, but favor light blue instead of green.
+
+Doctor name
+
+Replace the doctor name in the sidebar/footer from whatever it currently is to:
+
+“Dr. Héctor Julián”
+
+Keep the specialty text (e.g. “Dermatólogo”) in Spanish.
+
+Header and footer
+
+Add a simple header and footer to the layout:
+
+Header: app name, maybe a small user/profile area.
+
+Footer: small text like “Clínica Dr. Julián – Gestor Clínico”.
+
+Keep both minimal and consistent with the existing style.
+
+“Nuevo Paciente” button
+
+The “Nuevo Paciente” button on the patients list currently does nothing.
+
+Make it open a “Nuevo Paciente” screen or modal with form fields:
+
+Name, age, DNI, phone, email, tags, notes.
+
+After saving, the new patient should appear in the patient list (using the mock data approach).
+
+Tags/labels display and filtering
+
+I prefer the tags/labels visible directly on the screen, not hidden inside a dropdown.
+
+Keep the tags shown as small pills (e.g. “VIP”, “Botox”, “Facial”, etc.) on each patient card.
+
+For the filter area:
+
+Instead of a single combo like “Todas las etiquetas”, show the list of tags as selectable pills/chips.
+
+Update the search bar so it can filter by name/DNI and tags:
+
+If I type a tag name, it should filter patients by that tag as well.
+
+Rename the app
+
+Replace the app name/logo text “Aesthetica” with:
+
+“Clínica Dr. Julián”
+
+Keep the subtitle “Gestor Clínico” or similar text in Spanish.
+
+Please make sure:
+
+All visible text stays in Spanish.
+
+The design remains responsive.
+
+At the end, give me a short summary of:
+
+Which files/components you changed.
+
+Where the “Nueva Visita” and “Nuevo Paciente” forms live.
+
+How the tag filtering is implemented in the searc
